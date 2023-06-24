@@ -2,7 +2,7 @@
 include "../inc/cabecalho.php";
 
 ?>
-<main class=" content-page bg-secondary-subtle">
+<main class="content-page">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -10,7 +10,7 @@ include "../inc/cabecalho.php";
                     <img src="../img/fundo-carrossel.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="../img/fundo-carrossel2.jpg" class="d-block w-100" alt="...">
+                    <img src="../img/fundo-carrossel4.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                     <img src="../img/fundo-carrossel3.jpg" class="d-block w-100" alt="...">
@@ -29,7 +29,7 @@ include "../inc/cabecalho.php";
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <h1 class="text-center m-5">Encontre seu companheiro ❤</h1>
+                <h1 class="text-center m-5 fonte-titulo-home">Encontre seu companheiro ❤</h1>
             </div>
         </div>
         <div class="row">
