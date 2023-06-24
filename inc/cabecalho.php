@@ -12,8 +12,8 @@
 
 <body>
     <header class="container-fluid">
-        <div class="row bg-secondary">
-            <div class="col-2"><img src="../img/logo.png" width="200" alt="Logo do site AdotaPet"></div>
+        <div class="row bg-secondary p-2">
+            <div class="col-2"><img src="../img/logo.png" width="250" alt="Logo do site AdotaPet"></div>
             <div class="col d-flex align-items-center justify-content-end">
             <a href="#" class="btn btn-outline-warning m-1" role="button" data-bs-toggle="button">Pets</a>
             <a href="#" class="btn btn-outline-warning m-1" role="button" data-bs-toggle="button">Abrigo</a>
