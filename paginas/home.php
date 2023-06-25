@@ -2,7 +2,7 @@
 include "../inc/cabecalho.php";
 
 ?>
-<main class="content-page">
+<main>
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
