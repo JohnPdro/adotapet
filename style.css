@@ -6,7 +6,9 @@ main{
     background-image:linear-gradient(to top, #f0dfd2, #f1dfd0, #f7e3d4);
 }
 
-
+.fonte-formpet{
+    font-family: 'Fredoka One', cursive;
+}
 
 .cor-bg-cabecalho{
     background-image: url(img/fundin.jpg);
@@ -55,6 +57,8 @@ main{
 .fonte-titulo-abrigos{
     font-family: 'Fredoka One', cursive;
 }
+
+
 
 .cor-rodape{
     background-color: #261e1e;
