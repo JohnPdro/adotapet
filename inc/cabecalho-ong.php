@@ -19,6 +19,7 @@
         <div class="row p-2">
             <div class="col-2"><a href="../paginas/home.php"><img src="../img/logo.png" width="250" alt="Logo do site AdotaPet"></a></div>
             <div class="col d-flex align-items-center justify-content-end">
+                <a href="../paginas/form-pet.php" class="cor-btn-cabecalho m-1" role="button">Cadastrar Pet</a>
                 <a href="../paginas/home.php" class="cor-btn-cabecalho m-1" role="button">Pets</a>
                 <a href="../paginas/abrigos.php" class="cor-btn-cabecalho m-1" role="button">Abrigos</a>
                 <a href="../paginas/cadastro.php" class="cor-btn-cabecalho m-1" role="button">Cadastre sua Ong</a>

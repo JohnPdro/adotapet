@@ -10,7 +10,7 @@ include "../inc/cabecalho.php";
     </div>
     <div class="row">
         <div class="col">
-            <form action="novo-pet.php" method="post">
+            <form class="fonte-formpet" action="novo-pet.php" method="post">
                 <div class="row">
                     <div class="col text-center">
                         <label class="m-5" for="cachorro"><img src="../img/icone-cao.png" width="100px" alt=""></label>
@@ -80,7 +80,7 @@ include "../inc/cabecalho.php";
                 </div>
                 <div class="row mb-5">
                     <div class="col text-center">
-                        <button class="btn btn-success w-50">SALVAR</button>
+                        <button class="cor-btn-blocopets">SALVAR</button>
                     </div>
                 </div>
             </form>
