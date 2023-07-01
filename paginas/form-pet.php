@@ -13,9 +13,11 @@ include "../inc/cabecalho.php";
             <form class="fonte-formpet" action="novo-pet.php" method="post">
                 <div class="row">
                     <div class="col text-center">
-                        <label class="m-5" for="cachorro"><img src="../img/icone-cao.png" width="100px" alt=""></label>
+                        <label class="m-5" for="cachorro"><img src="../img/icone-cao.png" width="100px" alt=""></label><br>
                         <input type="radio" name="especie" id="cachorro" checked>
-                        <label class="m-5" for="gato"><img src="../img/icone-gato.png" width="100px" alt=""></label>
+                    </div>
+                    <div class="col text-center">
+                        <label class="m-5" for="gato"><img src="../img/icone-gato.png" width="100px" alt=""></label><br>
                         <input type="radio" name="especie" id="gato">
                     </div>
                 </div>
