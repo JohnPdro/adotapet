@@ -11,7 +11,7 @@ main{
 }
 
 .cor-bg-cabecalho{
-    background-image: url(img/fundin.jpg);
+    background-image: url(../img/fundin.jpg);
 }
 
 .cor-btn-cabecalho{  /*Cor dos botões de interação do cabeçalho*/
