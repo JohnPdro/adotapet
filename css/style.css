@@ -64,4 +64,31 @@ main{
     color: #fff ;
 }
 
+.btn-menu-ong{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff8600;  
+    border:3px solid #fff;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.142);
+}
 
+.btn-menu-ong:hover{
+    color: #fff;
+    background-color: #261e1e;
+}
+
+.fundo-body{
+    height: 100%;
+    background-color: #f0dfd2;
+}
+
+.pading-btn-menu{
+    padding-top: 140px;
+}
