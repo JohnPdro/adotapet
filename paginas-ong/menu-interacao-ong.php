@@ -26,7 +26,7 @@
       <div class="row">
         <div class="col-4 m-auto">
           <a href=""><button class="btn-menu-ong"><img src="../img/icon-adicionar.png" alt=""><br>Cadastrar Pet</button></a>
-          <a href=""><button class="btn-menu-ong"><img src="../img/icon-sair.png" alt=""><br>Sair</button></a>
+          <a href=""><button class="btn-menu-ong"><img src="../img/icon-perfil.png" alt=""><br>Perfil</button></a>
         </div>
       </div>
     </div>

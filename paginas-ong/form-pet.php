@@ -1,5 +1,5 @@
 <?php
-include "../inc/cabecalho.php";
+include "../inc/cabecalho-ong.php";
 ?>
 
 <main class=" container mb-3">

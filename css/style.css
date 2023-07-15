@@ -32,6 +32,24 @@ main{
     background-color: #261e1e;
 }
 
+.cor-btn-cabecalho-perfil{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff8600;  
+    border:3px solid #fff;
+    border-radius: 100px;
+    padding: 10px;
+    width: 90px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.142);
+}
+
+.cor-btn-cabecalho-perfil:hover{
+    color: #fff;
+    background-color: #261e1e;
+}
+
 .fonte-titulo-home{
     font-family: 'Fredoka One', cursive;
 }
