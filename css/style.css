@@ -12,6 +12,7 @@ main{
 
 .cor-bg-cabecalho{
     background-image: url(../img/fundin.jpg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
 }
 
 .cor-btn-cabecalho{  /*Cor dos botões de interação do cabeçalho*/
@@ -20,7 +21,6 @@ main{
     text-decoration: none;
     color: #fff;
     background-color: #ff8600;  
-    border:3px solid #fff;
     border-radius: 25px;
     padding: 10px;
     width: 170px;
@@ -38,7 +38,6 @@ main{
     text-decoration: none;
     color: #fff;
     background-color: #ff8600;  
-    border:3px solid #fff;
     border-radius: 100px;
     padding: 10px;
     width: 90px;
@@ -60,7 +59,6 @@ main{
     text-decoration: none;
     color: #fff;
     background-color: #ff8600;  
-    border:3px solid #fff;
     border-radius: 25px;
     padding: 10px;
     width: 170px;
@@ -88,7 +86,6 @@ main{
     text-decoration: none;
     color: #fff;
     background-color: #ff8600;  
-    border:3px solid #fff;
     border-radius: 25px;
     margin: 20px;
     padding: 10px;

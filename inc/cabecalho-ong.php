@@ -19,9 +19,9 @@
         <div class="row p-2">
             <div class="col-2"><a href="../paginas-ong/home-ong.php"><img src="../img/logo.png" width="250" alt="Logo do site AdotaPet"></a></div>
             <div class="col d-flex align-items-center justify-content-end">
-                <a href="../paginas-ong/form-pet.php" class="cor-btn-cabecalho m-1" role="button">Cadastrar Pet</a>
                 <a href="../paginas-ong/home-ong.php" class="cor-btn-cabecalho m-1" role="button">Pets</a>
                 <a href="../paginas-ong/abrigos-ong.php" class="cor-btn-cabecalho m-1" role="button">Abrigos</a>
+                <a href="../paginas-ong/form-pet.php" class="cor-btn-cabecalho m-1" role="button">Cadastrar Pet</a>
                 <a href="../paginas-ong/perfil.php" class="cor-btn-cabecalho-perfil m-1" role="button"><img src="../img/icon-perfil.png" alt="" width="40"><br>Perfil</a>
             </div>
         </div>
