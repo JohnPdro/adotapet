@@ -16,7 +16,7 @@
 
 <body>
     <header class="container-fluid cor-bg-cabecalho">
-        <div class="row p-2">
+        <div class="row p-2 fonte-tema">
             <div class="col-2"><a href="../paginas/home.php"><img src="../img/logo.png" width="250" alt="Logo do site AdotaPet"></a></div>
             <div class="col d-flex align-items-center justify-content-end">
                 <a href="../paginas/home.php" class="cor-btn-cabecalho m-1" role="button">Pets</a>

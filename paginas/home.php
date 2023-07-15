@@ -9,10 +9,10 @@ include "../inc/cabecalho.php";
                 <img src="../img/fundo-carrossel.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="../img/fundo-carrossel3.jpg" class="d-block w-100" alt="...">
+                <img src="../img/fundo-carrossel4.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="../img/fundo-carrossel4.jpg" class="d-block w-100" alt="...">
+                <img src="../img/fundo-carrossel3.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -28,7 +28,7 @@ include "../inc/cabecalho.php";
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <h1 class="text-center m-5 fonte-titulo-home">Encontre seu companheiro ❤</h1>
+                <h1 class="text-center m-5 fonte-tema">Encontre seu companheiro ❤</h1>
             </div>
         </div>
         <div class="row">

@@ -12,8 +12,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom, #ffc895, #ffc085, #ffbc7e);
+    background-image:linear-gradient(to top, #f0dfd2, #f1dfd0, #f7e3d4);
 }
+
+
 
 .container{
     width: 87%;
@@ -52,7 +54,9 @@ body {
     align-items: center;
 }
 
-.login-button button {
+.login-button a {
+    color: white;
+    text-decoration: none;
     border: none;
     background-color: #E18229;
     padding: 0.4rem 1rem;
@@ -121,6 +125,7 @@ body {
 }
 
 .cadastrar-button button {
+    color: white;
     width: 100%;
     margin-top: 0.1rem;
     border: none;

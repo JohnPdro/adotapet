@@ -18,14 +18,14 @@
   <main class="">
     <div class="container-fluid">
       <div class="row pading-btn-menu">
-        <div class="col-4 m-auto">
-          <a href=""><button class="btn-menu-ong"><img src="../img/icon-home.png" alt=""><br>Home</button></a>
-          <a href=""><button class="btn-menu-ong"><img src="../img/icon-lista.png" alt=""><br>Lista de Pets</button></a>
+        <div class="col-5 m-auto">
+          <a href="../paginas-ong/home-ong.php"><button class="btn-menu-ong"><img src="../img/icon-home.png" alt=""><br>Home</button></a>
+          <a href="../paginas-ong/pets-cadastrados-ong.php"><button class="btn-menu-ong"><img src="../img/icon-lista.png" alt=""><br>Lista de Pets</button></a>
         </div>
       </div>
       <div class="row">
-        <div class="col-4 m-auto">
-          <a href=""><button class="btn-menu-ong"><img src="../img/icon-adicionar.png" alt=""><br>Cadastrar Pet</button></a>
+        <div class="col-5 m-auto">
+          <a href="../paginas-ong/form-pet.php"><button class="btn-menu-ong"><img src="../img/icon-adicionar.png" alt=""><br>Cadastrar Pet</button></a>
           <a href=""><button class="btn-menu-ong"><img src="../img/icon-perfil.png" alt=""><br>Perfil</button></a>
         </div>
       </div>

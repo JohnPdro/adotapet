@@ -1,6 +1,6 @@
 <div class="container-cards">
     
-    <div class="row">
+    <div class="row fonte-tema">
         <div class="col m-2">
             <div class="card p-2" style="width: 20rem;">
                 <img src="../img/foto-gato.jpg" class="card-img-top" alt="...">

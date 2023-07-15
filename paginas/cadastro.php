@@ -14,7 +14,7 @@
       <img src="../img/fundo-cadastro.svg"> <!-- observação aparentemente é necessario que a imagem seja .svg para funcionar o código -->
     </div>
     <div class="form">
-      <form action="#" method="post"> <!-- o "#" somente está ai porque no momento eu ainda não defini uma ação no js -->
+      <form action="../crud/inserir.php" method="post"> <!-- o "#" somente está ai porque no momento eu ainda não defini uma ação no js -->
         <div class="form-header">
 
           <div class="title">
@@ -25,7 +25,7 @@
           <div id="msgSuccess"></div>
 
           <div class="login-button">
-            <button type="submit"><a href="login.php">Login</a></button>
+            <a href="login.php">Login</a>
           </div>
         </div>
 
@@ -42,7 +42,7 @@
 
           <div class="input-box">
             <label id="labelTelefone" for="telefone">Telefone</label>
-            <input id="telefone" type="tel" name="telefone" placeholder="Digite seu Telefone" required>
+            <input id="telefone" type="text" name="telefone" placeholder="Digite seu Telefone" required>
           </div>
 
           <div class="input-box">
@@ -75,13 +75,9 @@
             <input id="senha" type="password" name="senha" placeholder="Digite uma senha" required>
           </div>
 
-          <div class="input-box">
-            <label id="labelConfirmSenha" for="ConfirmSenha">Confirmar Senha</label>
-            <input id="ConfirmSenha" type="password" name="ConfirmSenha" placeholder="Digite sua senha novamente" required>
-          </div>
         </div>
         <div class="cadastrar-button">
-          <button onclick="cadastrar()" type="submit"><a href="home.php"></a>Cadastrar</button><!-- para linkar com a homepage basta substituir o "#" pelo link da homepage -->
+          <button type="submit">Cadastrar</button><!-- para linkar com a homepage basta substituir o "#" pelo link da homepage -->
         </div>
       </form>
     </div>
