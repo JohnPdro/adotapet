@@ -3,10 +3,10 @@ include "../inc/cabecalho-ong.php";
 include "../inc/conexao.php";
 ?>
 
-<h1 class="p-5 fonte-fredoka">Tabela de Pets Cadastrados</h1>
+<h1 class="p-5 fonte-tema">Tabela de Pets Cadastrados</h1>
 
 <div class="container fonte-fredoka">
-  <table class="table">
+  <table class="table fonte-tema">
     <tr>
       <td>Código</td>
       <td>Especie</td>
