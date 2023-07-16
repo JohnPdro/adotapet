@@ -5,7 +5,7 @@ include "../inc/cabecalho-ong.php";
 <main class=" container-fluid">
     <div class="row pt-5 fonte-tema">
         <div class="col-12">
-            <h1 class="text-center mb-3">INFORMAÇÕES DO ANIMAL</h1>
+            <h1 class="text-center mb-3">Informações do pet 🧸</h1>
         </div>
     </div>
     <form class="fonte-tema p-5" action="../crud/novo-pet.php" method="post">

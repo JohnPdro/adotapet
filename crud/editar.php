@@ -28,13 +28,13 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
 endwhile
 ?>
 
-<div class="container-fluid fonte-tema">
-    <div class="row">
-        <div class="col">
+<main class="container-fluid fonte-tema">
+    <div class="row pt-5 ms-3">
+        <div class="col-12">
             <h1>Editar Pet 🐾</h1>
         </div>
     </div>
-    <form class="fonte-tema" method="post" action="atualizar.php?id=<?php echo $id; ?>">
+    <form class="fonte-tema p-5" method="post" action="atualizar.php?id=<?php echo $id; ?>">
         <div class="row">
             <div class="col">
                 <label class="form-label" for="especie">Especie</label>
@@ -95,7 +95,7 @@ endwhile
             </div>
         </div>
     </form>
-</div>
+</main>
 
 <?php
 mysqli_close($conexao);
