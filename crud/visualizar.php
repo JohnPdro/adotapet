@@ -29,12 +29,12 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
 endwhile
 ?>
 
-<h1 class="mt-5 ms-5 fonte-titulo-home">Ficha do Pet</h1>
+<h1 class="mt-5 ms-5 fonte-tema">Ficha do Pet</h1>
 <div class="container-fluid">
     <div class="card p-3 m-auto mb-5 fonte-titulo-home" style="width: 40rem;">
         <img src="<?php echo $foto; ?>" class="card-img-top" alt="Foto do animal">
         <div class="card-body">
-            <h4 class="card-title">Nome: <?php echo $nome; ?></h4>
+            <h4 class="card-title fonte-tema">Nome: <?php echo $nome; ?></h4>
             <div class="row mt-3 mb-3 fonte-tema">
                 <div class="col-6">
                     <p class="card-text">Especie: <?php echo $especie ?></p>
@@ -61,10 +61,14 @@ endwhile
             </div>
             <div class="row mt-3 mb-3 fonte-tema">
                 <div class="col">
-                    <p class="m-auto card-text">Sobre o pet: <?php echo $sobre_pet; ?></p>
+                    <p class="m-auto card-text">Sobre o pet: <br> <?php echo $sobre_pet; ?></p>
                 </div>
             </div>
-            <a href="#" class="mt-5 cor-btn-blocopets" data-bs-toggle="modal" data-bs-target="#exampleModal">Go somewhere</a>
+            <div class="row mt-5">
+                <div class="col">
+                    <a href="../crud/editar.php" class="mt-5 ps-5 pe-5 cor-btn-blocopets" action="atualizar.php?id=<?php echo $id; ?>">Editar</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
