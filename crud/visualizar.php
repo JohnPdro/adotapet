@@ -65,8 +65,11 @@ endwhile
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col">
-                    <a href="../crud/editar.php" class="mt-5 ps-5 pe-5 cor-btn-blocopets" action="atualizar.php?id=<?php echo $id; ?>">Editar</a>
+                <div class="col-6">
+                    <a href="../paginas-ong/pets-cadastrados-ong.php" class="mt-5 ps-5 pe-5 cor-btn-blocopets">VOLTAR</a>
+                </div>
+                <div class="col-6">
+                    <a href="../crud/editar.php?id=<?php echo $id; ?>" class="mt-5 ps-5 pe-5 cor-btn-blocopets">EDITAR</a>
                 </div>
             </div>
         </div>
