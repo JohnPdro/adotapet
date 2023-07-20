@@ -1,6 +1,6 @@
 <?php
 include "../inc/cabecalho.php";
-
+include "../inc/conexao.php";
 ?>
 <main>
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -31,13 +31,33 @@ include "../inc/cabecalho.php";
                 <h1 class="text-center m-5 fonte-tema">Encontre seu companheiro ❤</h1>
             </div>
         </div>
-        <div class="row">
+        <div id="infinite-list" class="row">
             <?php
             include "../inc/bloco-pets.php";
             ?>
         </div>
     </div>
+
+    <!-- Código do infinite scroll ainda em teste
+
+        <div class="container-cards">
+        <div class="row fonte-tema">
+            <div id="posts-container"></div>
+        </div>
+    </div>
+
+    <div class="row p-5">
+        <div class="col-1 m-auto">
+            <div class="loader">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div> -->
 </main>
+
+<script src="../js/infinite-scroll.js"></script>
 
 <?php
 include "../inc/rodape.php";
