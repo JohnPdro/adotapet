@@ -41,8 +41,7 @@ include "../inc/conexao.php";
     <!-- Código do infinite scroll ainda em teste
 
         <div class="container-cards">
-        <div class="row fonte-tema">
-            <div id="posts-container"></div>
+            <div id="posts-container" class="row fonte-tema"></div>
         </div>
     </div>
 
