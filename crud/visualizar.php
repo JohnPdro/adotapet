@@ -28,7 +28,13 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
     $foto = $um_registro['foto'];
 endwhile
 ?>
-
+<nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+  <ol class="breadcrumb ms-5 pt-4 fonte-tema">
+    <li class="breadcrumb-item"><a class="cor-breadcrumb" href="../paginas-ong/home-ong.php">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><a class="cor-breadcrumb" href="../paginas-ong/pets-cadastrados-ong.php">Pets Cadastrados</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Visualizar</li>
+  </ol>
+</nav>
 <h1 class="mt-5 ms-5 fonte-tema">Ficha do Pet</h1>
 <div class="container-fluid">
     <div class="card p-3 m-auto mb-5 fonte-titulo-home" style="width: 40rem;">

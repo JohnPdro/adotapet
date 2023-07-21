@@ -106,6 +106,20 @@ main{
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.353);
 }
 
+.cor-breadcrumb{
+    color: #ff8600;
+    text-decoration: none;
+}
+
+.cor-breadcrumb:hover{
+    color: #261e1e;
+    
+}
+
+.custom-toggler .navbar-toggler-icon{
+    color: red !important; /* Altere para a cor desejada */
+  }
+
 /* estilo para infinte scroll ainda em teste
 
 .loader {

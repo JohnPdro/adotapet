@@ -29,6 +29,13 @@ endwhile
 ?>
 
 <main class="container-fluid fonte-tema">
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb ms-5 pt-4 fonte-tema">
+            <li class="breadcrumb-item"><a class="cor-breadcrumb" href="../paginas-ong/home-ong.php">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a class="cor-breadcrumb" href="../paginas-ong/pets-cadastrados-ong.php">Pets Cadastrados</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Editar</li>
+        </ol>
+    </nav>
     <div class="row pt-5 ms-3">
         <div class="col-12">
             <h1>Editar Pet 🐾</h1>
@@ -76,7 +83,7 @@ endwhile
             <div class="col">
                 <label class="form-label" for="cidade">Cidade:</label>
                 <select class="form-select" name="cidade" id="cidade">
-                    <option value="<?php echo $cidade?>"><?php echo $cidade?></option>
+                    <option value="<?php echo $cidade ?>"><?php echo $cidade ?></option>
                     <option value="Americana">Americana</option>
                     <option value="Santa Barbara D'Oeste">Santa Barbara D'Oeste</option>
                     <option value="Nova Odessa">Nova Odessa</option>
@@ -87,7 +94,7 @@ endwhile
             <div class="col-4">
                 <label class="form-label" for="estado">Estado:</label>
                 <select class="form-select" name="estado" id="estao">
-                    <option value="<?php echo $estado ?>"><?php echo $estado?></option>
+                    <option value="<?php echo $estado ?>"><?php echo $estado ?></option>
                 </select>
             </div>
         </div>

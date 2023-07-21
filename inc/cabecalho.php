@@ -15,14 +15,21 @@
 </head>
 
 <body>
-    <header class="container-fluid cor-bg-cabecalho">
-        <div class="row p-2 fonte-tema">
-            <div class="col-2"><a href="../paginas/home.php"><img src="../img/logo.png" width="250" alt="Logo do site AdotaPet"></a></div>
-            <div class="col d-flex align-items-center justify-content-end">
-                <a href="../paginas/home.php" class="cor-btn-cabecalho m-1" role="button">Pets</a>
-                <a href="../paginas/abrigos.php" class="cor-btn-cabecalho m-1" role="button">Abrigos</a>
-                <a href="../paginas/cadastro.php" class="cor-btn-cabecalho m-1" role="button">Cadastre sua Ong</a>
-                <a href="../paginas/login.php" class="cor-btn-cabecalho m-1" role="button">Login</a>
+    <header class=" cor-bg-cabecalho">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid fonte-tema">
+                <a class="p-2" href="../paginas/home.php"><img src="../img/logo.png" width="200" alt="Logo do site AdotaPet"></a>
+                <button class="navbar-toggler .custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a href="../paginas/home.php" class="nav-item cor-btn-cabecalho m-1" role="button">Pets</a>
+                        <a href="../paginas/abrigos.php" class="nav-item cor-btn-cabecalho m-1" role="button">Abrigos</a>
+                        <a href="../paginas/cadastro.php" class="nav-item cor-btn-cabecalho m-1" role="button">Cadastre sua Ong</a>
+                        <a href="../paginas/login.php" class="nav-item cor-btn-cabecalho m-1" role="button">Login</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
