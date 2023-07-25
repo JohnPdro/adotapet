@@ -58,7 +58,7 @@ include "../inc/cabecalho-ong.php";
                 <select name="cidade" id="cidade" class="form-select">
                     <option value="vazio">--- ESCOLHA ---</option>
                     <option value="Americana">Americana</option>
-                    <option value="Santa Barbara D'Oeste">Santa Barbara D'Oeste</option>
+                    <option value="Santa Barbara D Oeste">Santa Barbara D Oeste</option>
                     <option value="Nova Odessa">Nova Odessa</option>
                     <option value="Sumare">Sumaré</option>
                     <option value="Limeira">Limeira</option>

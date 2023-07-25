@@ -11,7 +11,7 @@ include "../inc/cabecalho-ong.php";
             <div class="carousel-item" data-bs-interval="3000">
                 <img src="../img/fundo-carrossel4.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item"  data-bs-interval="3000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="../img/fundo-carrossel3.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
@@ -32,11 +32,14 @@ include "../inc/cabecalho-ong.php";
             </div>
         </div>
         <div class="row">
-            <?php
-            include "../inc/bloco-pets.php";
-            ?>
+            <div class="container-cards">
+                <div class="row fonte-tema">
+                    <?php
+                        include "../inc/bloco-pets.php";
+                    ?>
+                </div>
+            </div>
         </div>
-    </div>
 </main>
 
 <?php
