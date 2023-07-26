@@ -14,7 +14,7 @@ include "../inc/cabecalho-ong.php";
             <h1 class="text-center mb-3">Informações do pet 🧸</h1>
         </div>
     </div>
-    <form class="fonte-tema p-5" action="../crud/novo-pet.php" method="post">
+    <form class="fonte-tema p-5" action="../crud/novo-pet.php" method="post" enctype="multipart/form-data">
         <div class="row">
             <div class="col text-center">
                 <label for="cachorro"><img src="../img/icone-cao.png" width="100px" alt=""></label><br>
