@@ -86,7 +86,7 @@ include "../inc/cabecalho-ong.php";
         </div>
         <div class="row mb-5">
             <div class="col text-center">
-                <button class="cor-btn-blocopets">SALVAR</button>
+                <button class="cor-btn-blocopets" name="submit">SALVAR</button>
             </div>
         </div>
     </form>

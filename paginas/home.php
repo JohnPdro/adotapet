@@ -31,10 +31,14 @@ include "../inc/conexao.php";
                 <h1 class="text-center m-5 fonte-tema">Encontre seu companheiro ❤</h1>
             </div>
         </div>
-        <div id="infinite-list" class="row">
-            <?php
-            include "../inc/bloco-pets.php";
-            ?>
+        <div class="row">
+            <div class="container-cards">
+                <div class="row fonte-tema">
+                    <?php
+                    include "../inc/bloco-pets.php";
+                    ?>
+                </div>
+            </div>
         </div>
     </div>
 

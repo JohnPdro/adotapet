@@ -1,5 +1,5 @@
 <?php 
-include"../inc/conexao.php";
+include "../inc/conexao.php";
 
 $especie = $_POST["especie"];
 $nome = $_POST["nome"];
@@ -12,7 +12,7 @@ $sobre_pet = $_POST["sobre_pet"];
 $foto = $_FILES["foto"];
 
 
-// SEÇÃO UTILIZADA PARA TESTE DE UPLOAD DE IMAGEM
+// TESTE DE UPLOAD DE IMAGEM
 // if($foto != NULL){
 //     $nomeFinal = time().'.jpg';
 //     if(move_uploaded_file($foto['tmp_name'], $nomeFinal)){
