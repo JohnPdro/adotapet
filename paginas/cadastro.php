@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Cadastro </title>
   <link rel="stylesheet" href="../css/style-cadastro.css">
+  <link rel="shortcut icon" href="../img/favicon-16x16.png" type="image/x-icon">
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 <body>
@@ -32,7 +33,7 @@
         <div class="input-group">
           <div class="input-box">
             <label id="labelNome" for="nome">Nome</label>
-            <input id="nome" type="text" name="nome" placeholder="Nome da Ong" required>
+            <input id="nome" type="text" name="nome" placeholder="Nome da Ong/Protetor" required>
           </div>
 
           <div class="input-box">
@@ -42,12 +43,12 @@
 
           <div class="input-box">
             <label id="labelTelefone" for="telefone">Telefone</label>
-            <input id="telefone" type="text" name="telefone" placeholder="Digite seu Telefone" required>
+            <input id="telefone" type="text" name="telefone" placeholder="ex: (00) 00000-0000" required>
           </div>
 
           <div class="input-box">
             <label id="labelEndereco" for="endereco">Endereço</label>
-            <input id="endereco" type="text" name="endereco" placeholder="Digite seu Endereço" required>
+            <input id="endereco" type="text" name="endereco" placeholder="Rua e número" required>
           </div>
 
           <div class="input-box">
@@ -57,22 +58,32 @@
 
           <div class="input-box">
             <label id="labelCidade" for="cidade">Cidade</label>
-            <input id="cidade" type="text" name="cidade" placeholder="Digite a Cidade" required>
+            <select name="cidade" id="cidade" required>
+                    <option value="vazio">--- ESCOLHA ---</option>
+                    <option value="Americana">Americana</option>
+                    <option value="Santa Barbara D Oeste">Santa Barbara D Oeste</option>
+                    <option value="Nova Odessa">Nova Odessa</option>
+                    <option value="Sumare">Sumaré</option>
+                    <option value="Limeira">Limeira</option>
+                </select>
           </div>
 
           <div class="input-box">
             <label id="labelEstado" for="estado">Estado</label>
-            <input id="estado" type="text" name="estado" placeholder="Digite o Estado" required>
+              <select class="tamanho-select-estado" name="estado" id="estado" required>
+                    <option value="vazio">--- ESCOLHA ---</option>
+                    <option value="SP">São Paulo</option>
+              </select>
           </div>
 
           <div class="input-box">
             <label id="labelCnpj_Cpf" for="cnpj_cpf">CNPJ/CPF</label>
-            <input id="cnpj_cpf" type="text" name="cnpj_cpf" placeholder="Digite seu CNPJ ou CPF" required>
+            <input id="cnpj_cpf" type="text" name="cnpj_cpf" placeholder="ex: xx.xxx.xxx/xxxx-xx" required>
           </div>
 
           <div class="input-box">
             <label id="labelSenha" for="senha">Senha</label>
-            <input id="senha" type="password" name="senha" placeholder="Digite uma senha" required>
+            <input id="senha" type="password" name="senha" placeholder="Mínimo 6 digítos" required>
           </div>
 
         </div>

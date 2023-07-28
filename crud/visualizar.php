@@ -40,34 +40,34 @@ endwhile
     <div class="card p-3 m-auto mb-5 fonte-titulo-home" style="width: 40rem;">
         <img src="<?php echo $foto; ?>" class="card-img-top" alt="Foto do animal">
         <div class="card-body">
-            <h4 class="card-title fonte-tema">Nome: <?php echo $nome; ?></h4>
+            <h4 class="card-title fs-3 fonte-tema">Nome: <?php echo $nome; ?></h4>
             <div class="row mt-3 mb-3 fonte-tema">
                 <div class="col-6">
-                    <p class="card-text">Especie: <?php echo $especie ?></p>
+                    <p class="card-text fs-5">Especie: <?php echo $especie ?></p>
                 </div>
                 <div class="col-6">
-                    <p class="card-text">Sexo: <?php echo $sexo; ?></p>
+                    <p class="card-text fs-5">Sexo: <?php echo $sexo; ?></p>
                 </div>
             </div>
             <div class="row mt-3 mb-3 fonte-tema">
                 <div class="col-6">
-                    <p class="card-text">Tamanho: <?php echo $tamanho; ?></p>
+                    <p class="card-text fs-5">Tamanho: <?php echo $tamanho; ?></p>
                 </div>
                 <div class="col-6">
-                    <p class="card-text">Idade: <?php echo $idade; ?></p>
+                    <p class="card-text fs-5">Idade: <?php echo $idade; ?></p>
                 </div>
             </div>
             <div class="row mt-3 mb-3 fonte-tema">
                 <div class="col-6">
-                    <p class="card-text">Cidade: <?php echo $cidade; ?></p>
+                    <p class="card-text fs-5">Cidade: <?php echo $cidade; ?></p>
                 </div>
                 <div class="col-6">
-                    <p class="card-text">Estado: <?php echo $estado; ?></p>
+                    <p class="card-text fs-5">Estado: <?php echo $estado; ?></p>
                 </div>
             </div>
             <div class="row mt-3 mb-3 fonte-tema">
                 <div class="col">
-                    <p class="m-auto card-text">Sobre o pet: <br> <?php echo $sobre_pet; ?></p>
+                    <p class="m-auto card-text fs-5">Sobre o pet: <br> <?php echo $sobre_pet; ?></p>
                 </div>
             </div>
             <div class="row mt-5">

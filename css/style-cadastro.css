@@ -59,7 +59,7 @@ body {
     text-decoration: none;
     border: none;
     background-color: #E18229;
-    padding: 0.4rem 1rem;
+    padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -98,19 +98,24 @@ body {
     margin-bottom: 1.1rem;
 }
 
-.input-box input {
+.input-box input, select {
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
+    font-size: 16px;
 }
 
-.input-box input:hover {
+.tamanho-select-estado{
+    width: 235px;
+}
+
+.input-box input, select, option:hover {
     background-color: #eeeeee75;
 }
 
-.input-box input:focus-visble {
+.input-box input, select :focus-visble {
     outline: 1px solid #E18229;
 }
 
@@ -120,7 +125,7 @@ body {
     color: #000000c0;
 }
 
-.input-box input::placeholder {
+.input-box input, select::placeholder {
     color: #000000be;
 }
 
@@ -130,9 +135,10 @@ body {
     margin-top: 0.1rem;
     border: none;
     background-color: #E18229;
-    padding: 0.62rem;
+    padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .cadastrar-button button:hover {

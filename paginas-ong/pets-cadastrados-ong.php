@@ -57,8 +57,8 @@ include "../inc/conexao.php";
   </table>
 
 </div>
-<p class="mb-5 mt-2 text-center fonte-fredoka">
-  <a href="../paginas-ong/form-pet.php" role="button" class="cor-btn-blocopets">Novo Cadastro</a>
+<p class="mb-5 mt-5 text-center fonte-fredoka">
+  <a href="../paginas-ong/form-pet.php" role="button" class="cor-btn-blocopets">NOVO CADASTRO</a>
 </p>
 <?php
 mysqli_close($conexao);

@@ -12,7 +12,7 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
             <img src="<?php echo $um_registro['foto']; ?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title fs-3"><?php echo $um_registro['nome']; ?> - <?php echo $um_registro['especie']; ?></h5>
-                <p class="card-text  pt-2 fs-5"><?php echo $um_registro['sexo']; ?> <br> <?php echo $um_registro['idade']; ?><br><?php echo $um_registro['tamanho']; ?> <br> <?php echo $um_registro['cidade']; ?> - <?php echo $um_registro['estado']; ?></p>
+                <p class="card-text  pt-2 fs-5"><?php echo $um_registro['sexo']; ?> <br> <?php echo $um_registro['idade']; ?><br><?php echo $um_registro['tamanho']; ?> <br> <?php echo $um_registro['cidade']; ?> - <?php echo $um_registro['estado']; ?> <br> ________________</p>
                 <p class="card-text fs-5">Mais do pet! <br><?php echo $um_registro['sobre_pet']; ?></p>
                 <!-- <button type="button" class="cor-btn-blocopets" data-bs-toggle="modal" data-bs-target="#exampleModal">Mais do Pet</button>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -51,11 +51,11 @@ include "../inc/cabecalho-ong.php";
         <div class="row mb-3">
             <div class="col-md-2">
                 <label for="idade" class="form-label">Idade</label>
-                <input type="text" name="idade" id="idade" class="form-control" placeholder="Aproximadamente">
+                <input type="text" name="idade" id="idade" class="form-control" placeholder="ex: 3 Anos">
             </div>
             <div class="col-md-5">
                 <label for="cidade" class="form-label">Cidade:</label>
-                <select name="cidade" id="cidade" class="form-select">
+                <select name="cidade" id="cidade" class="form-select text-center">
                     <option value="vazio">--- ESCOLHA ---</option>
                     <option value="Americana">Americana</option>
                     <option value="Santa Barbara D Oeste">Santa Barbara D Oeste</option>
@@ -66,7 +66,7 @@ include "../inc/cabecalho-ong.php";
             </div>
             <div class="col-md-5">
                 <label class="form-label" for="estado">Estado:</label>
-                <select class="form-select" name="estado" id="estado">
+                <select class="form-select text-center" name="estado" id="estado">
                     <option value="vazio">--- ESCOLHA ---</option>
                     <option value="SP">São Paulo</option>
                 </select>
