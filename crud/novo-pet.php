@@ -9,21 +9,14 @@ $idade = $_POST["idade"];
 $cidade = $_POST["cidade"];
 $estado = $_POST["estado"];
 $sobre_pet = $_POST["sobre_pet"];   
-$foto = $_FILES["foto"];
 
 
-// TESTE DE UPLOAD DE IMAGEM
-// if($foto != NULL){
-//     $nomeFinal = time().'.jpg';
-//     if(move_uploaded_file($foto['tmp_name'], $nomeFinal)){
-//         $tamanhoImg = filesize($nomeFinal);
+$target_dir = "../uploads/";
+$target_file = $target_dir . basename($_FILES["foto"]["name"]);
+$imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
+move_uploaded_file($_FILES["foto"]["tmp_name"], $target_file);
 
-//         $mysqlImg = addslashes(fread(fopen($nomeFinal, "r"), $tamanhoImg));
-//         unlink($nomeFinal);
-//     }
-// }
-
-$sql = "insert into animais(especie, nome, sexo, tamanho, idade, cidade, estado, sobre_pet, foto) values('$especie', '$nome', '$sexo', '$tamanho', '$idade', '$cidade', '$estado', '$sobre_pet', '$mysqlImg')";
+$sql = "insert into animais(especie, nome, sexo, tamanho, idade, cidade, estado, sobre_pet, foto) values('$especie', '$nome', '$sexo', '$tamanho', '$idade', '$cidade', '$estado', '$sobre_pet', '$target_file')";
 
 mysqli_query($conexao, $sql);
 mysqli_close($conexao);

@@ -14,8 +14,8 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
                 <h5 class="card-title fs-3"><?php echo $um_registro['nome']; ?> - <?php echo $um_registro['especie']; ?></h5>
                 <p class="card-text  pt-2 fs-5"><?php echo $um_registro['sexo']; ?> <br> <?php echo $um_registro['idade']; ?><br><?php echo $um_registro['tamanho']; ?> <br> <?php echo $um_registro['cidade']; ?> - <?php echo $um_registro['estado']; ?> <br> ________________</p>
                 <p class="card-text fs-5">Mais do pet! <br><?php echo $um_registro['sobre_pet']; ?></p>
-                <!-- <button type="button" class="cor-btn-blocopets" data-bs-toggle="modal" data-bs-target="#exampleModal">Mais do Pet</button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <button type="button" class="cor-btn-blocopets" data-bs-toggle="modal" data-bs-target="#exampleModal<?php echo $um_registro['id_animal']; ?>">Mais do Pet</button>
+                <div class="modal fade" id="exampleModal<?php echo $um_registro['id_animal']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -36,7 +36,7 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </div>

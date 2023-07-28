@@ -20,7 +20,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         if (!isset($_SESSION)) {
             session_start();
         }
-
+        $_SESSION["email"] = $email;
         // Redirecionar para a página de destino
         header('Location: ../paginas-ong/menu-interacao-ong.php');
         exit();
@@ -31,7 +31,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         if (!isset($_SESSION)) {
             session_start();
         }
-
+        $_SESSION["email"] = $email;
         // Redirecionar para a página de destino
         header('Location: ../paginas-ong/menu-interacao-ong.php');
         exit();
