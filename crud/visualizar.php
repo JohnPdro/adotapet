@@ -37,8 +37,8 @@ endwhile
 </nav>
 <h1 class="mt-5 ms-5 fonte-tema">Ficha do Pet</h1>
 <div class="container-fluid">
-    <div class="card p-3 m-auto mb-5 fonte-titulo-home" style="width: 40rem;">
-        <img src="<?php echo $foto; ?>" class="card-img-top" alt="Foto do animal">
+    <div class="card p-3 m-auto mb-5 fonte-titulo-home img-fluid" style="width: 40rem;">
+        <img src="<?php echo $foto; ?>" class="card-img-top " alt="Foto do animal">
         <div class="card-body">
             <h4 class="card-title fs-3 fonte-tema">Nome: <?php echo $nome; ?></h4>
             <div class="row mt-3 mb-3 fonte-tema">
