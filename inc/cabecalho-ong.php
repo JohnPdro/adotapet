@@ -28,7 +28,10 @@
                         <a href="../paginas-ong/abrigos-ong.php" class="nav-item cor-btn-cabecalho m-1" role="button">Abrigos</a>
                         <a href="../paginas-ong/form-pet.php" class="nav-item cor-btn-cabecalho m-1" role="button">Cadastrar Pet</a>
                         <a href="../paginas-ong/pets-cadastrados-ong.php" class="nav-item cor-btn-cabecalho m-1" role="button">Pets Cadastrados</a>
-                        <a href="../paginas-ong/perfil-ong.php" class=" nav-item cor-btn-cabecalho m-1 ms-2 me-2" role="button">Perfil</a>
+                        <?php
+                        session_start();
+                        ?>
+                        <a href="../paginas-ong/perfil-ong.php?email=<?php echo $_SESSION['email'];?>" class=" nav-item cor-btn-cabecalho m-1 ms-2 me-2" role="button">Perfil</a>
                     </div>
                 </div>
             </div>

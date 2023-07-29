@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -27,10 +27,9 @@
         <div class="col-5 m-auto">
           <?php 
           session_start();
-         
           ?>
           <a href="../paginas-ong/form-pet.php"><button class="btn-menu-ong"><img src="../img/icon-adicionar.png" alt=""><br>Cadastrar Pet</button></a>
-          <a href="../paginas-ong/perfil-ong.php?email=<?php echo $_SESSION["email"];?>"><button class="btn-menu-ong"><img src="../img/icon-perfil.png" alt=""><br>Perfil</button></a>
+          <a href="../paginas-ong/perfil-ong.php?email=<?php echo $_SESSION['email'];?>"><button class="btn-menu-ong"><img src="../img/icon-perfil.png" alt=""><br>Perfil</button></a>
         </div>
       </div>
     </div>

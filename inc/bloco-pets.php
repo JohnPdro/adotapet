@@ -30,7 +30,7 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
                                 Mais sobre o pet <br> <?php echo $um_registro['sobre_pet']; ?></p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
                             </div>
                         </div>
                     </div>

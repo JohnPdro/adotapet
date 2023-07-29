@@ -9,10 +9,6 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
     $sql_ongs = "SELECT * FROM ongs WHERE email = '$email' AND senha = '$senha'";
     $resultado_ongs = mysqli_query($conexao, $sql_ongs) or die("Falha na execução do código SQL: " . $conexao->error);
 
-    // Consulta na tabela 'protetores'
-    $sql_protetores = "SELECT * FROM protetores WHERE email = '$email' AND senha = '$senha'";
-    $resultado_protetores = mysqli_query($conexao, $sql_protetores) or die("Falha na execução do código SQL: " . $conexao->error);
-
     if (mysqli_num_rows($resultado_ongs) > 0) {
         $ongs = $resultado_ongs->fetch_assoc();
 
