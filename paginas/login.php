@@ -20,17 +20,17 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
         // Redirecionar para a página de destino
         header('Location: ../paginas-ong/menu-interacao-ong.php');
         exit();
-    } elseif (mysqli_num_rows($resultado_protetores) > 0) {
-        $protetores = $resultado_protetores->fetch_assoc();
+    // } elseif (mysqli_num_rows($resultado_protetores) > 0) {
+    //     $protetores = $resultado_protetores->fetch_assoc();
 
-        // Iniciar a sessão
-        if (!isset($_SESSION)) {
-            session_start();
-        }
-        $_SESSION["email"] = $email;
-        // Redirecionar para a página de destino
-        header('Location: ../paginas-ong/menu-interacao-ong.php');
-        exit();
+    //     // Iniciar a sessão
+    //     if (!isset($_SESSION)) {
+    //         session_start();
+    //     }
+    //     $_SESSION["email"] = $email;
+    //     // Redirecionar para a página de destino
+    //     header('Location: ../paginas-ong/menu-interacao-ong.php');
+    //     exit();
     } else {
         echo "Falha ao logar! Email ou senha inválidos";
     }
