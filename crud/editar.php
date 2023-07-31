@@ -41,7 +41,7 @@ endwhile
             <h1>Editar Pet 🐾</h1>
         </div>
     </div>
-    <form class="fonte-tema p-5" method="post" action="atualizar.php?id=<?php echo $id; ?>">
+    <form class="fonte-tema p-5" method="post" enctype="multipart/form-data" action="atualizar.php?id=<?php echo $id; ?>">
         <div class="row mb-3">
             <div class="col-4">
                 <label class="form-label" for="especie">Especie</label>
@@ -85,7 +85,7 @@ endwhile
                 <select class="form-select" name="cidade" id="cidade">
                     <option value="<?php echo $cidade ?>"><?php echo $cidade ?></option>
                     <option value="Americana">Americana</option>
-                    <option value="Santa Barbara D'Oeste">Santa Barbara D'Oeste</option>
+                    <option value="Santa Barbara D Oeste">Santa Barbara D'Oeste</option>
                     <option value="Nova Odessa">Nova Odessa</option>
                     <option value="Sumare">Sumaré</option>
                     <option value="Limeira">Limeira</option>

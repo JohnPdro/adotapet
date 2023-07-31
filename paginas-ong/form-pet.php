@@ -28,11 +28,11 @@ include "../inc/cabecalho-ong.php";
         <div class="row mb-3">
             <div class="col-md-6 ">
                 <label for="nome" class="form-label ">Nome:</label>
-                <input type="text" name="nome" id="nome" class="form-control">
+                <input type="text" name="nome" id="nome" class="form-control" required>
             </div>
             <div class="col-md-3 ">
                 <label for="sexo" class="form-label">Sexo:</label>
-                <select class="form-select text-center" name="sexo" id="sexo">
+                <select class="form-select text-center" name="sexo" id="sexo" required>
                     <option value="vazio">--- ESCOLHA ---</option>
                     <option value="Macho">Macho</option>
                     <option value="Femea">Femêa</option>
@@ -40,7 +40,7 @@ include "../inc/cabecalho-ong.php";
             </div>
             <div class="col-md-3">
                 <label for="tamanho" class="form-label">Tamanho:</label>
-                <select class="form-select text-center" name="tamanho" id="tamanho">
+                <select class="form-select text-center" name="tamanho" id="tamanho" required>
                     <option value="vazio">--- ESCOLHA ---</option>
                     <option value="Pequeno">Pequeno</option>
                     <option value="Medio">Médio</option>
@@ -51,12 +51,12 @@ include "../inc/cabecalho-ong.php";
         <div class="row mb-3">
             <div class="col-md-2">
                 <label for="idade" class="form-label">Idade</label>
-                <input type="text" name="idade" id="idade" class="form-control" placeholder="ex: 3 Anos">
+                <input type="text" name="idade" id="idade" class="form-control" placeholder="ex: 3 Anos" required>
             </div>
             <div class="col-md-5">
                 <label for="cidade" class="form-label">Cidade:</label>
-                <select name="cidade" id="cidade" class="form-select text-center">
-                    <option value="vazio">--- ESCOLHA ---</option>
+                <select name="cidade" id="cidade" class="form-select text-center" required>
+                    <option value="none">--- ESCOLHA ---</option>
                     <option value="Americana">Americana</option>
                     <option value="Santa Barbara D Oeste">Santa Barbara D Oeste</option>
                     <option value="Nova Odessa">Nova Odessa</option>
@@ -66,7 +66,7 @@ include "../inc/cabecalho-ong.php";
             </div>
             <div class="col-md-5">
                 <label class="form-label" for="estado">Estado:</label>
-                <select class="form-select text-center" name="estado" id="estado">
+                <select class="form-select text-center" name="estado" id="estado" required>
                     <option value="vazio">--- ESCOLHA ---</option>
                     <option value="SP">São Paulo</option>
                 </select>
@@ -81,7 +81,7 @@ include "../inc/cabecalho-ong.php";
         <div class="row mb-5">
             <div class="col">
                 <label for="foto" class="form-label">Escolha uma imagem do pet! 📷</label>
-                <input class="form-control" type="file" name="foto" id="foto">
+                <input class="form-control" type="file" name="foto" id="foto" required>
             </div>
         </div>
         <div class="row mb-5">
