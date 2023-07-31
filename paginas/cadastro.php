@@ -86,6 +86,11 @@
             <input id="senha" type="password" name="senha" placeholder="Mínimo 6 digítos" required>
           </div>
 
+          <div class="input-box">
+            <label id="labelConfirmSenha" for="ConfirmSenha">Confirmar Senha</label>
+            <input id="ConfirmSenha" type="password" name="ConfirmSenha" placeholder="Digite sua senha novamente" required>
+          </div>
+
         </div>
         <div class="cadastrar-button">
           <button type="submit">Cadastrar</button><!-- para linkar com a homepage basta substituir o "#" pelo link da homepage -->
