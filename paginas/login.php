@@ -17,6 +17,7 @@ if (isset($_POST['email']) && isset($_POST['senha'])) {
             session_start();
         }
         $_SESSION["email"] = $email;
+        $_SESSION["id_ong"] = $id_ong_fk;
         // Redirecionar para a página de destino
         header('Location: ../paginas-ong/menu-interacao-ong.php');
         exit();
