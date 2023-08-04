@@ -69,6 +69,7 @@ while ($um_registro = mysqli_fetch_assoc($todos_registros)) :
         </form>
         <p class="mb-4 pt-3 text-center fonte-fredoka">
             <a href="../crud/editar-perfil.php?id=<?php echo $um_registro['id_ong'] ?>" role="button" class="cor-btn-blocopets">EDITAR</a>
+            <a href="../paginas/home.php" role="button" class="ms-5 cor-btn-blocopets">SAIR</a>
         </p>
     </div>
 
